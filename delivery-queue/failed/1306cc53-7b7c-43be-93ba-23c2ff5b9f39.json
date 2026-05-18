@@ -1,0 +1,50 @@
+{
+  "id": "1306cc53-7b7c-43be-93ba-23c2ff5b9f39",
+  "enqueuedAt": 1779085583091,
+  "channel": "whatsapp",
+  "to": "+919633884342",
+  "accountId": "default",
+  "payloads": [
+    {
+      "text": "⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session."
+    }
+  ],
+  "renderedBatchPlan": {
+    "payloadCount": 1,
+    "textCount": 1,
+    "mediaCount": 0,
+    "voiceCount": 0,
+    "presentationCount": 0,
+    "interactiveCount": 0,
+    "channelDataCount": 0,
+    "items": [
+      {
+        "index": 0,
+        "kinds": [
+          "text"
+        ],
+        "text": "⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session.",
+        "mediaUrls": []
+      }
+    ]
+  },
+  "formatting": {
+    "textLimit": 4000,
+    "tableMode": "code",
+    "chunkMode": "length"
+  },
+  "session": {
+    "key": "agent:main:whatsapp:direct:+919633884342",
+    "conversationType": "direct",
+    "agentId": "main",
+    "requesterAccountId": "default",
+    "requesterSenderId": "+919633884342",
+    "requesterSenderName": "Novelia",
+    "requesterSenderE164": "+919633884342"
+  },
+  "retryCount": 1,
+  "platformSendStartedAt": 1779085583101,
+  "recoveryState": "send_attempt_started",
+  "lastAttemptAt": 1779085583106,
+  "lastError": "No active WhatsApp Web listener (account: default). Start the gateway, then link WhatsApp with: openclaw channels login --channel whatsapp --account default. | No active WhatsApp Web listener (account: default). Start the gateway, then link WhatsApp with: openclaw channels login --channel whatsapp --account default."
+}
