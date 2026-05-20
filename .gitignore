@@ -1,7 +1,9 @@
 node_modules/
 .env
-.openclaw/
+.nanoclaw/
 sessions/
 logs/
 *.log
-workspace/
+workspace/.git/
+workspace/.nanoclaw/
+workspace/.openclaw/
